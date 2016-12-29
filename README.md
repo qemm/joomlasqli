@@ -1,16 +1,16 @@
-# Exploit Title: Sqli Blind Timebased on Joomla + Viertuemart + aweb-cartwatching-system/<= 2.6.0
-# Date: 28-12-2016
-# Software Link: http://awebsupport.com/products/aweb-cartwatching-system
-# Exploit Author: Javi Espejo(qemm)
-# Contact: http://twitter.com/javiespejo
-# Website: http://raipson.com
-# CVE: REQUESTED
-# Category: webapps
+ Exploit Title: Sqli Blind Timebased on Joomla + Viertuemart + aweb-cartwatching-system/<= 2.6.0
+ Date: 28-12-2016
+ Software Link: http://awebsupport.com/products/aweb-cartwatching-system
+ Exploit Author: Javi Espejo(qemm)
+ Contact: http://twitter.com/javiespejo
+ Website: http://raipson.com
+ CVE: REQUESTED
+ Category: webapps
  
 1. Description
    
-Any remote user can access to the victim server trough a SQLI Blind Injection on a component of aweb_cartwatching_system and aweb_cart_autosave
-This is the code that has the parameters with the parameters not sanitized 
+Any remote user can access to the victim server trough an SQLI Blind Injection on a component of aweb_cartwatching_system and aweb_cart_autosave
+This is the code that has the parameters with the parameters not sanitized (IMAGE 1 )  
 
 2. Proof of Concept
 
@@ -24,7 +24,7 @@ I test with a client environment and I found that the paremeter POST view on htt
  view
  task
  
-Then I saw an strange behavior on the web a then I see that the parameter view responds to an easy timebased query
+Then I saw an strange behavior on the web and then I see that the parameter view responds to an easy timebased query
 http://test.xxxxx.com/es/index.php?option=com_virtuemart&view=categorysearch%27+%2F+sleep%285%29+%2F+%27&task=smartSearch
 
 
