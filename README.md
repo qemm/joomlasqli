@@ -1,11 +1,11 @@
- Exploit Title: Sqli Blind Timebased on Joomla + Viertuemart + aweb-cartwatching-system/<= 2.6.0
- Date: 28-12-2016
- Software Link: http://awebsupport.com/products/aweb-cartwatching-system
- Exploit Author: Javi Espejo(qemm)
- Contact: http://twitter.com/javiespejo
- Website: http://raipson.com
- CVE: REQUESTED
- Category: webapps
+#Exploit Title: Sqli Blind Timebased on Joomla + Viertuemart + aweb-cartwatching-system/<= 2.6.0
+#Date: 28-12-2016
+#Software Link: http://awebsupport.com/products/aweb-cartwatching-system
+#Exploit Author: Javi Espejo(qemm)
+#Contact: http://twitter.com/javiespejo
+#Website: http://raipson.com
+#CVE: REQUESTED
+#Category: webapps
  
 1. Description
    
